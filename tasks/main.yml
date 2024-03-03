@@ -10,8 +10,8 @@
     operator_install_git_dest: /tmp/consulting-br/helm-operator/
     operator_install_folder: /tmp/consulting-br/output/
     operator_install_folder_subpath: operator/templates
-    operator_install_helm_values_files: "{{ operator_install_helm_values_files }}"
-    operator_install_helm_set_values: "{{ operator_install_helm_set_values }}"
+#    operator_install_helm_values_files: "{{ operator_install_helm_values_files }}"
+#    operator_install_helm_set_values: "{{ operator_install_helm_set_values }}"
     operator_install_namespace: "{{ amq_streams_install_namespace }}"
 
 - name: "AMQ Streams :: Instala instância do Kafka"
